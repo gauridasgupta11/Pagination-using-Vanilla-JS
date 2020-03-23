@@ -56,7 +56,7 @@ function drawList(){
       document.getElementById("list").innerHTML = "";
   
     for (r = 0; r < pageList.length; r++) {
-        document.getElementById("list").innerHTML += pageList[r].name + "<br/>";
+        document.getElementById("list").innerHTML += pageList[r].name + ":  " + pageList[r].category + "<br/>";
     }
 }
 
